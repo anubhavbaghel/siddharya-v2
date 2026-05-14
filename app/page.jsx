@@ -9,7 +9,7 @@ export default function Home() {
         <div className="hero-bg" style={{backgroundImage: "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/Assets/pexels-yogavidyamandiram-34060996.avif')"}}></div>
         <div className="hero-content">
             <span className="hero-subtitle">Tapovan &middot; Rishikesh &middot; Since the river began</span>
-            <h1 className="hero-title">A quiet place to remember <br><span>who you are.</span></h1>
+            <h1 className="hero-title">A quiet place to remember <br /><span>who you are.</span></h1>
             <p className="hero-text">Yoga, meditation and Ayurveda retreats in the Himalayan foothills &mdash; unhurried days, sattvic meals, and the quiet company of the Ganga.</p>
             <div className="hero-buttons">
                 <a href="#retreats" className="btn-primary">Our Retreats</a>
