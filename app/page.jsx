@@ -8,9 +8,9 @@ export default function Home() {
       <header id="home" className="hero">
         <div className="hero-bg" style={{backgroundImage: "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/Assets/pexels-yogavidyamandiram-34060996.avif')"}}></div>
         <div className="hero-content">
-            <span className="hero-subtitle">Experience Spiritual Awakening</span>
-            <h1 className="hero-title">Your Journey to <br /><span>Inner Peace</span> Begins Here</h1>
-            <p className="hero-text">Join Siddharya Yoga Ashram in Rishikesh for a life-changing experience of yoga, meditation, and spiritual growth amidst the Himalayas and the sacred Ganga.</p>
+            <span className="hero-subtitle">Tapovan &middot; Rishikesh &middot; Since the river began</span>
+            <h1 className="hero-title">A quiet place to remember <br><span>who you are.</span></h1>
+            <p className="hero-text">Yoga, meditation and Ayurveda retreats in the Himalayan foothills &mdash; unhurried days, sattvic meals, and the quiet company of the Ganga.</p>
             <div className="hero-buttons">
                 <a href="#retreats" className="btn-primary">Our Retreats</a>
                 <a href="/about" className="btn-outline">About Ashram</a>
@@ -30,10 +30,10 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="about-text">
-                    <span className="section-tag">Welcome to Siddharya</span>
-                    <h2 className="section-title">A Sanctuary for the Soul in Rishikesh</h2>
-                    <p>Siddharya Yoga Ashram is more than just a yoga center; it is a spiritual home for seekers from around the world. Located in the heart of Rishikesh, the world capital of yoga, we offer a sacred space for deep self-discovery, stillness, and celebrating your soul.</p>
-                    <p>Our ashram provides a warm, safe, and non-judgmental environment where you are free to be yourself. Whether you are a beginner or an experienced practitioner, our traditional teachings will help you reconnect with your inner wisdom and find balance in your life.</p>
+                    <span className="section-tag">Our Sanctuary</span>
+                    <h2 className="section-title">Nestled in the lush green of Tapovan.</h2>
+                    <p>Siddharya is a small ashram and retreat designed for travelers seeking depth, not spectacle. Days unfold gently &mdash; a sunrise practice, a slow meal, time by the Ganga, and an evening of stillness.</p>
+                    <p>Our teachers come from a lineage rooted here in the Himalayan foothills. We share what we live: a yoga that is honest, simple and quietly transformative.</p>
                     <ul className="about-features">
                         <li><i className="fas fa-check-circle"></i> Experienced & Compassionate Teachers</li>
                         <li><i className="fas fa-check-circle"></i> Traditional Hatha & Ashtanga Yoga</li>
@@ -49,9 +49,9 @@ export default function Home() {
     <section id="retreats" className="retreats-section">
         <div className="container">
             <div className="section-header text-center">
-                <span className="section-tag">Transformative Packages</span>
-                <h2 className="section-title">Our Yoga & Meditation Retreats</h2>
-                <p className="section-desc">Choose the duration that suits your journey. Our retreats are designed to rejuvenate your body, calm your mind, and uplift your spirit.</p>
+                <span className="section-tag">Retreat Packages</span>
+                <h2 className="section-title">Choose your journey</h2>
+                <p className="section-desc">Curated 3&ndash;10 day immersions for every level. Choose the journey that calls to you.</p>
             </div>
             
             <div className="retreat-grid">
@@ -162,9 +162,9 @@ export default function Home() {
 
     <section className="cta-banner" style={{backgroundImage: "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/Assets/tarun-anand-giri-0QT4DZESKvo-unsplash.avif')"}}>
         <div className="container">
-            <h2 className="cta-title">Reconnect with Your True Self</h2>
-            <p>Join our community of seekers and experience the authentic yoga lifestyle in the heart of Rishikesh.</p>
-            <a href="#contact" className="btn-primary btn-lg">Reserve Your Spot</a>
+            <h2 className="cta-title">Begin your path</h2>
+            <p>Tell us a little about yourself and we'll guide you to the journey that fits &mdash; whether it's three days or ten.</p>
+            <a href="/#contact" className="btn-primary btn-lg">Plan My Retreat</a>
         </div>
     </section>
 
@@ -188,21 +188,21 @@ export default function Home() {
     <section id="experience" className="experience-section">
         <div className="container">
             <div className="section-header text-center">
-                <span className="section-tag">Explore & Engage</span>
-                <h2 className="section-title">Experience Rishikesh & Activities</h2>
-                <p className="section-desc">Immerse yourself in the spiritual capital of the world. We offer a perfect blend of profound meditation and enriching excursions.</p>
+                <span className="section-tag">What you'll experience</span>
+                <h2 className="section-title">At the heart of our practice</h2>
+                <p className="section-desc">Meditation sits at the centre of everything we do. Around it we weave gentle yoga, sound healing, ice baths, mindful art and guided excursions into the wild beauty of the Himalayan foothills.</p>
             </div>
             
             <div className="experience-content">
                 <div className="experience-text">
-                    <h3>Focus on Meditation & Healing</h3>
-                    <p>Our ashram provides a holistic approach to well-being, focusing heavily on inner stillness.</p>
+                    <h3>Small group. Big transformation.</h3>
+                    <p>Our ashram provides a holistic approach to well-being, focusing heavily on inner stillness and natural rhythms.</p>
                     <ul className="activity-list">
-                        <li><i className="fas fa-om"></i> <strong>Meditation (Core Focus):</strong> Deepen your inward journey in our serene spaces.</li>
-                        <li><i className="fas fa-yin-yang"></i> <strong>Yoga & Sound Healing:</strong> Attain physical and mental resonance.</li>
-                        <li><i className="fas fa-palette"></i> <strong>Rock Painting:</strong> Express your inner creativity.</li>
-                        <li><i className="fas fa-snowflake"></i> <strong>Ice Bath:</strong> Rejuvenate and awaken your nervous system.</li>
-                        <li><i className="fas fa-hiking"></i> <strong>Excursions:</strong> Explore the majestic Himalayan foothills.</li>
+                        <li><i className="fas fa-om"></i> <strong>Meditation:</strong> The heart of our practice &mdash; guided sittings, silent walks, and mantra to settle the restless mind.</li>
+                        <li><i className="fas fa-yin-yang"></i> <strong>Yoga:</strong> Daily Hatha, pranayama and gentle vinyasa in our riverside shala.</li>
+                        <li><i className="fas fa-palette"></i> <strong>Rock Painting:</strong> Slow, mindful art on smooth river stones &mdash; a moving meditation.</li>
+                        <li><i className="fas fa-snowflake"></i> <strong>Ice Bath:</strong> Cold-water immersion in the Himalayan stream &mdash; courage, breath, clarity.</li>
+                        <li><i className="fas fa-hiking"></i> <strong>Excursions:</strong> Guided treks to hidden temples, viewpoints and the secret waterfall.</li>
                     </ul>
                 </div>
                 <div className="experience-grid">
