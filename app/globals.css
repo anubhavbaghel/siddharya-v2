@@ -534,7 +534,6 @@ img {
     color: var(--white);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
 }
 
 .cta-title {

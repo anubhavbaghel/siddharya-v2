@@ -9,32 +9,41 @@ export default function ScrollReveal() {
   useEffect(() => {
     const revealElements = document.querySelectorAll('.about-grid, .retreat-card, .gallery-item, .review-card, .contact-grid');
     
+    // Initial setup
     revealElements.forEach(el => {
       el.classList.add('reveal');
     });
 
-    const revealOnScroll = () => {
-      const windowHeight = window.innerHeight;
-      const elementVisible = 100;
-      
-      revealElements.forEach((el, index) => {
-        const elementTop = el.getBoundingClientRect().top;
-        
-        if (elementTop < windowHeight - elementVisible) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const el = entry.target;
+          
           if(el.classList.contains('retreat-card') || el.classList.contains('gallery-item') || el.classList.contains('review-card')) {
+            // Find index relative to siblings for staggered delay
+            const siblings = Array.from(el.parentElement.children);
+            const index = siblings.indexOf(el);
             const delay = (index % 3) * 0.2;
             el.style.transitionDelay = `${delay}s`;
           }
+          
           el.classList.add('active');
+          // Once revealed, we don't need to observe it anymore
+          observer.unobserve(el);
         }
       });
+    }, {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.15 // Trigger when 15% visible
+    });
+
+    revealElements.forEach(el => observer.observe(el));
+
+    return () => {
+      revealElements.forEach(el => observer.unobserve(el));
+      observer.disconnect();
     };
-
-    window.addEventListener('scroll', revealOnScroll);
-    // Add small timeout to ensure DOM is fully rendered before checking bounds
-    setTimeout(revealOnScroll, 100);
-
-    return () => window.removeEventListener('scroll', revealOnScroll);
   }, [pathname]);
 
   return null;
