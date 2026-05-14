@@ -1146,6 +1146,11 @@ img {
     .footer-content {
         grid-template-columns: 1fr 1fr;
     }
+
+    .about-grid .retreat-detail-img {
+        order: -1;
+        margin-bottom: 2rem;
+    }
 }
 
 @media (max-width: 768px) {
@@ -1167,11 +1172,30 @@ img {
         background: var(--white);
         padding: 2rem;
         box-shadow: var(--shadow-md);
+        gap: 1rem;
     }
     
     .nav-links.active a {
         color: var(--text-main);
         font-size: 1.1rem;
+    }
+
+    .dropdown-content {
+        position: static;
+        display: none;
+        box-shadow: none;
+        padding-left: 1rem;
+        background: transparent;
+        margin-top: 0.5rem;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+        animation: none;
+    }
+    
+    .dropdown-content a {
+        padding: 0.5rem 0;
     }
     
     .hero-title {
