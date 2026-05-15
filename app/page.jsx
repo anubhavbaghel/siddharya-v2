@@ -30,10 +30,10 @@ export default function Home() {
             <div className="about-grid">
                 <div className="about-images">
                     <div className="img-wrapper main-img">
-                        <img src="/Assets/nath-yogi-P9pUsM38fIY-unsplash.avif" alt="Yoga Master" />
+                        <img src="/Assets/JKS01205 (1).JPG.avif" alt="Yoga Master" />
                     </div>
                     <div className="img-wrapper sub-img">
-                        <img src="/Assets/rishu-bhosale-ZwuullHS6H4-unsplash.avif" alt="Rishikesh View" />
+                        <img src="/Assets/WhatsApp Image 2026-05-10 at 20.05.01.avif" alt="Rishikesh View" />
                     </div>
                 </div>
                 <div className="about-text">
@@ -64,7 +64,7 @@ export default function Home() {
             <div className="retreat-grid">
                 <div className="retreat-card">
                     <div className="card-img">
-                        <img src="/Assets/pexels-yogavidyamandiram-31743025.avif" alt="3 Day Retreat" />
+                        <img src="/Assets/WhatsApp Image 2026-05-10 at 20.05.03.avif" alt="3 Day Retreat" />
                         <span className="card-badge">3 Days</span>
                     </div>
                     <div className="card-content">
@@ -81,7 +81,7 @@ export default function Home() {
 
                 <div className="retreat-card">
                     <div className="card-img">
-                        <img src="/Assets/akash-choudhary-CTdDooABASA-unsplash.avif" alt="4 Day Retreat" />
+                        <img src="/Assets/WhatsApp Image 2026-05-10 at 20.05.07.avif" alt="4 Day Retreat" />
                         <span className="card-badge">4 Days</span>
                     </div>
                     <div className="card-content">
@@ -98,7 +98,7 @@ export default function Home() {
 
                 <div className="retreat-card">
                     <div className="card-img">
-                        <img src="/Assets/pexels-gurukulyogashala-28821003.avif" alt="5 Day Retreat" />
+                        <img src="/Assets/WhatsApp Image 2026-05-10 at 20.05.52.avif" alt="5 Day Retreat" />
                         <span className="card-badge">5 Days</span>
                     </div>
                     <div className="card-content">
@@ -115,7 +115,7 @@ export default function Home() {
 
                 <div className="retreat-card">
                     <div className="card-img">
-                        <img src="/Assets/narinder-pal-Vv0oZQ_v48Y-unsplash.avif" alt="6 Day Retreat" />
+                        <img src="/Assets/WhatsApp Image 2026-05-10 at 20.01.30.avif" alt="6 Day Retreat" />
                         <span className="card-badge">6 Days</span>
                     </div>
                     <div className="card-content">
@@ -132,7 +132,7 @@ export default function Home() {
 
                 <div className="retreat-card">
                     <div className="card-img">
-                        <img src="/Assets/pexels-yogavidyamandiram-34513844.avif" alt="7 Day Retreat" />
+                        <img src="/Assets/WhatsApp Image 2026-05-10 at 20.02.40.avif" alt="7 Day Retreat" />
                         <span className="card-badge">7 Days</span>
                     </div>
                     <div className="card-content">
@@ -149,7 +149,7 @@ export default function Home() {
 
                 <div className="retreat-card">
                     <div className="card-img">
-                        <img src="/Assets/pexels-yoga-course-india-932671557-20035455.avif" alt="10 Day Retreat" />
+                        <img src="/Assets/JKS01205.JPG.avif" alt="10 Day Retreat" />
                         <span className="card-badge">10 Days</span>
                     </div>
                     <div className="card-content">
@@ -167,7 +167,7 @@ export default function Home() {
         </div>
     </section>
 
-    <section className="cta-banner" style={{backgroundImage: "linear-gradient(135deg, rgba(31,48,40,0.72), rgba(47,69,57,0.48), rgba(158,116,70,0.38)), url('/Assets/tarun-anand-giri-0QT4DZESKvo-unsplash.avif')"}}>
+    <section className="cta-banner" style={{backgroundImage: "linear-gradient(135deg, rgba(31,48,40,0.72), rgba(47,69,57,0.48), rgba(158,116,70,0.38)), url('/Assets/WhatsApp Image 2026-05-10 at 20.05.53.avif')"}}>
         <div className="container">
             <h2 className="cta-title">Begin your path</h2>
             <p>Tell us a little about yourself and we'll guide you to the journey that fits &mdash; whether it's three days or ten.</p>
@@ -214,7 +214,7 @@ export default function Home() {
                 </div>
                 <div className="practice-card">
                     <div className="practice-image">
-                        <img src="/Assets/pexels-yogavidyamandiram-31743025.avif" alt="Yoga practice" />
+                        <img src="/Assets/JKS01205 (1).JPG.avif" alt="Yoga practice" />
                     </div>
                     <div className="practice-card-content">
                         <span className="practice-number">02</span>
@@ -236,7 +236,7 @@ export default function Home() {
                 </div>
                 <div className="practice-card">
                     <div className="practice-image">
-                        <img src="/Assets/planet-volumes-PyiY-tlciEg-unsplash.avif" alt="Cold waterfall and nature" />
+                        <img src="/Assets/WhatsApp Image 2026-05-10 at 20.06.22.avif" alt="Cold waterfall and nature" />
                     </div>
                     <div className="practice-card-content">
                         <span className="practice-number">04</span>
@@ -258,7 +258,7 @@ export default function Home() {
                 </div>
                 <div className="practice-card">
                     <div className="practice-image">
-                        <img src="/Assets/raj-dhiman-YiS7laeCbk4-unsplash.avif" alt="Rishikesh excursion" />
+                        <img src="/Assets/WhatsApp Image 2026-05-10 at 20.06.29.avif" alt="Rishikesh excursion" />
                     </div>
                     <div className="practice-card-content">
                         <span className="practice-number">06</span>
@@ -280,7 +280,7 @@ export default function Home() {
             </div>
             <div className="landmark-grid">
                 <div className="landmark-card landmark-large">
-                    <img src="/Assets/rishu-bhosale-ZwuullHS6H4-unsplash.avif" alt="Lakshman Jhula in Rishikesh" />
+                    <img src="/Assets/WhatsApp Image 2026-05-10 at 20.06.33.avif" alt="Lakshman Jhula in Rishikesh" />
                     <div className="landmark-overlay">
                         <span>River Walk</span>
                         <h3>Lakshman Jhula</h3>
@@ -288,7 +288,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="landmark-card">
-                    <img src="/Assets/raj-dhiman-YiS7laeCbk4-unsplash.avif" alt="Ram Jhula in Rishikesh" />
+                    <img src="/Assets/WhatsApp Image 2026-05-10 at 20.06.34.avif" alt="Ram Jhula in Rishikesh" />
                     <div className="landmark-overlay">
                         <span>Ashram Path</span>
                         <h3>Ram Jhula</h3>
@@ -296,7 +296,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="landmark-card">
-                    <img src="/Assets/dipti-soni-eVrta3a6ttQ-unsplash.avif" alt="Ganga Aarti ceremony in Rishikesh" />
+                    <img src="/Assets/WhatsApp Image 2026-05-10 at 20.06.35.avif" alt="Ganga Aarti ceremony in Rishikesh" />
                     <div className="landmark-overlay">
                         <span>Evening Prayer</span>
                         <h3>Ganga Aarti</h3>
@@ -304,7 +304,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="landmark-card">
-                    <img src="/Assets/planet-volumes-PyiY-tlciEg-unsplash.avif" alt="Secret Waterfall near Rishikesh" />
+                    <img src="/Assets/WhatsApp Image 2026-05-10 at 20.06.36.avif" alt="Secret Waterfall near Rishikesh" />
                     <div className="landmark-overlay">
                         <span>Nature Pause</span>
                         <h3>Secret Waterfall</h3>

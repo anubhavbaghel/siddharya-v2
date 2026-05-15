@@ -15,7 +15,7 @@ export default function Retreats() {
         <div className="container">
             <div className="about-grid">
                 <div className="retreat-detail-img">
-                    <img src="/Assets/pexels-yogavidyamandiram-31743025.avif" alt="3 Day Retreat" style={{borderRadius: '20px', boxShadow: 'var(--shadow-lg)', width: '100%'}} />
+                    <img src="/Assets/WhatsApp Image 2026-05-10 at 20.05.03.avif" alt="3 Day Retreat" style={{borderRadius: '20px', boxShadow: 'var(--shadow-lg)', width: '100%'}} />
                 </div>
                 <div className="retreat-detail-text">
                     <span className="section-tag">A Quick Reset</span>
@@ -46,7 +46,7 @@ export default function Retreats() {
                     <a href="/#contact" className="btn-primary">Book This Retreat</a>
                 </div>
                 <div className="retreat-detail-img">
-                    <img src="/Assets/akash-choudhary-CTdDooABASA-unsplash.avif" alt="4 Day Retreat" style={{borderRadius: '20px', boxShadow: 'var(--shadow-lg)', width: '100%'}} />
+                    <img src="/Assets/WhatsApp Image 2026-05-10 at 20.05.07.avif" alt="4 Day Retreat" style={{borderRadius: '20px', boxShadow: 'var(--shadow-lg)', width: '100%'}} />
                 </div>
             </div>
         </div>
@@ -56,7 +56,7 @@ export default function Retreats() {
         <div className="container">
             <div className="about-grid">
                 <div className="retreat-detail-img">
-                    <img src="/Assets/pexels-gurukulyogashala-28821003.avif" alt="5 Day Retreat" style={{borderRadius: '20px', boxShadow: 'var(--shadow-lg)', width: '100%'}} />
+                    <img src="/Assets/WhatsApp Image 2026-05-10 at 20.05.52.avif" alt="5 Day Retreat" style={{borderRadius: '20px', boxShadow: 'var(--shadow-lg)', width: '100%'}} />
                 </div>
                 <div className="retreat-detail-text">
                     <span className="section-tag">Deepen Your Practice</span>
@@ -88,7 +88,7 @@ export default function Retreats() {
                     <a href="/#contact" className="btn-primary">Book This Retreat</a>
                 </div>
                 <div className="retreat-detail-img">
-                    <img src="/Assets/narinder-pal-Vv0oZQ_v48Y-unsplash.avif" alt="6 Day Retreat" style={{borderRadius: '20px', boxShadow: 'var(--shadow-lg)', width: '100%'}} />
+                    <img src="/Assets/WhatsApp Image 2026-05-10 at 20.01.30.avif" alt="6 Day Retreat" style={{borderRadius: '20px', boxShadow: 'var(--shadow-lg)', width: '100%'}} />
                 </div>
             </div>
         </div>
@@ -98,7 +98,7 @@ export default function Retreats() {
         <div className="container">
             <div className="about-grid">
                 <div className="retreat-detail-img">
-                    <img src="/Assets/pexels-yogavidyamandiram-34513844.avif" alt="7 Day Retreat" style={{borderRadius: '20px', boxShadow: 'var(--shadow-lg)', width: '100%'}} />
+                    <img src="/Assets/WhatsApp Image 2026-05-10 at 20.02.40.avif" alt="7 Day Retreat" style={{borderRadius: '20px', boxShadow: 'var(--shadow-lg)', width: '100%'}} />
                 </div>
                 <div className="retreat-detail-text">
                     <span className="section-tag">Restore Vitality</span>
@@ -130,7 +130,7 @@ export default function Retreats() {
                     <a href="/#contact" className="btn-primary">Book This Retreat</a>
                 </div>
                 <div className="retreat-detail-img">
-                    <img src="/Assets/pexels-yoga-course-india-932671557-20035455.avif" alt="10 Day Retreat" style={{borderRadius: '20px', boxShadow: 'var(--shadow-lg)', width: '100%'}} />
+                    <img src="/Assets/JKS01205.JPG.avif" alt="10 Day Retreat" style={{borderRadius: '20px', boxShadow: 'var(--shadow-lg)', width: '100%'}} />
                 </div>
             </div>
         </div>
