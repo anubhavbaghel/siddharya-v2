@@ -25,7 +25,7 @@ export default function Footer() {
               <li><Link href="/about">About Ashram</Link></li>
               <li><Link href="/retreats">Retreat Packages</Link></li>
               <li><Link href="/#gallery">Gallery</Link></li>
-              <li><Link href="/#reviews">Testimonials</Link></li>
+              <li><Link href="/blog">Blog</Link></li>
             </ul>
           </div>
 

@@ -6,14 +6,25 @@ export default function Home() {
   return (
     <main>
       <header id="home" className="hero">
-        <div className="hero-bg" style={{backgroundImage: "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/Assets/pexels-yogavidyamandiram-34060996.avif')"}}></div>
-        <div className="hero-content">
-            <span className="hero-subtitle">Tapovan &middot; Rishikesh &middot; Since the river began</span>
-            <h1 className="hero-title">A quiet place to remember <br /><span>who you are.</span></h1>
-            <p className="hero-text">Yoga, meditation and Ayurveda retreats in the Himalayan foothills &mdash; unhurried days, sattvic meals, and the quiet company of the Ganga.</p>
-            <div className="hero-buttons">
-                <a href="#retreats" className="btn-primary">Our Retreats</a>
-                <a href="/about" className="btn-outline">About Ashram</a>
+        <div className="container hero-container">
+            <div className="hero-content">
+                <span className="hero-subtitle">Tapovan &middot; Rishikesh &middot; Since the river began</span>
+                <h1 className="hero-title">A quiet place to remember <br /><span>who you are.</span></h1>
+                <p className="hero-text">Yoga, meditation and Ayurveda retreats in the Himalayan foothills &mdash; unhurried days, sattvic meals, and the quiet company of the Ganga.</p>
+                <div className="hero-meta">
+                    <span>3-10 Day Retreats</span>
+                    <span>Tapovan, Rishikesh</span>
+                    <span>Small Group Practice</span>
+                </div>
+                <div className="hero-buttons">
+                    <a href="#retreats" className="btn-primary">Our Retreats</a>
+                    <a href="/about" className="btn-secondary">About Ashram</a>
+                </div>
+            </div>
+            <div className="hero-visual">
+                <div className="hero-image-wrapper">
+                    <img src="/Assets/pexels-yogavidyamandiram-34060996.avif" alt="Yoga Retreat in Rishikesh" />
+                </div>
             </div>
         </div>
     </header>
@@ -160,7 +171,7 @@ export default function Home() {
         </div>
     </section>
 
-    <section className="cta-banner" style={{backgroundImage: "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/Assets/tarun-anand-giri-0QT4DZESKvo-unsplash.avif')"}}>
+    <section className="cta-banner" style={{backgroundImage: "linear-gradient(135deg, rgba(31,48,40,0.72), rgba(47,69,57,0.48), rgba(158,116,70,0.38)), url('/Assets/tarun-anand-giri-0QT4DZESKvo-unsplash.avif')"}}>
         <div className="container">
             <h2 className="cta-title">Begin your path</h2>
             <p>Tell us a little about yourself and we'll guide you to the journey that fits &mdash; whether it's three days or ten.</p>
@@ -189,34 +200,119 @@ export default function Home() {
         <div className="container">
             <div className="section-header text-center">
                 <span className="section-tag">What you'll experience</span>
-                <h2 className="section-title">At the heart of our practice</h2>
-                <p className="section-desc">Meditation sits at the centre of everything we do. Around it we weave gentle yoga, sound healing, ice baths, mindful art and guided excursions into the wild beauty of the Himalayan foothills.</p>
+                <h2 className="section-title">Six ways back to stillness</h2>
+                <p className="section-desc">A focused retreat rhythm built around meditation, mindful movement, sound, cold-water breathwork, creative presence and guided excursions.</p>
             </div>
             
-            <div className="experience-content">
-                <div className="experience-text">
-                    <h3>Small group. Big transformation.</h3>
-                    <p>Our ashram provides a holistic approach to well-being, focusing heavily on inner stillness and natural rhythms.</p>
-                    <ul className="activity-list">
-                        <li><i className="fas fa-om"></i> <strong>Meditation:</strong> The heart of our practice &mdash; guided sittings, silent walks, and mantra to settle the restless mind.</li>
-                        <li><i className="fas fa-yin-yang"></i> <strong>Yoga:</strong> Daily Hatha, pranayama and gentle vinyasa in our riverside shala.</li>
-                        <li><i className="fas fa-palette"></i> <strong>Rock Painting:</strong> Slow, mindful art on smooth river stones &mdash; a moving meditation.</li>
-                        <li><i className="fas fa-snowflake"></i> <strong>Ice Bath:</strong> Cold-water immersion in the Himalayan stream &mdash; courage, breath, clarity.</li>
-                        <li><i className="fas fa-hiking"></i> <strong>Excursions:</strong> Guided treks to hidden temples, viewpoints and the secret waterfall.</li>
-                    </ul>
+            <div className="practice-grid">
+                <div className="practice-card practice-card-featured">
+                    <div className="practice-image">
+                        <img src="/Assets/WhatsApp Image 2026-05-10 at 20.01.30.avif" alt="Meditation practice" />
+                    </div>
+                    <div className="practice-card-content">
+                        <span className="practice-number">01</span>
+                        <div className="practice-icon"><i className="fas fa-om"></i></div>
+                        <h3>Meditation</h3>
+                        <p>Guided sittings, mantra and silent pauses that anchor every day in inner quiet.</p>
+                    </div>
                 </div>
-                <div className="experience-grid">
-                    <div className="exp-card">
-                        <img src="/Assets/rishu-bhosale-ZwuullHS6H4-unsplash.avif" alt="Lakshman Jhula" />
-                        <div className="exp-card-overlay"><h4>Lakshman & Ram Jhula</h4></div>
+                <div className="practice-card">
+                    <div className="practice-image">
+                        <img src="/Assets/pexels-yogavidyamandiram-31743025.avif" alt="Yoga practice" />
                     </div>
-                    <div className="exp-card">
-                        <img src="/Assets/dipti-soni-eVrta3a6ttQ-unsplash.avif" alt="Ganga Aarti" />
-                        <div className="exp-card-overlay"><h4>Divine Ganga Aarti</h4></div>
+                    <div className="practice-card-content">
+                        <span className="practice-number">02</span>
+                        <div className="practice-icon"><i className="fas fa-yin-yang"></i></div>
+                        <h3>Yoga</h3>
+                        <p>Hatha, pranayama and gentle flow practiced as movement meditation.</p>
                     </div>
-                    <div className="exp-card">
-                        <img src="/Assets/planet-volumes-PyiY-tlciEg-unsplash.avif" alt="Secret Waterfall" />
-                        <div className="exp-card-overlay"><h4>Secret Waterfall</h4></div>
+                </div>
+                <div className="practice-card">
+                    <div className="practice-image">
+                        <img src="/Assets/WhatsApp Image 2026-05-10 at 20.06.33.avif" alt="Sound healing session" />
+                    </div>
+                    <div className="practice-card-content">
+                        <span className="practice-number">03</span>
+                        <div className="practice-icon"><i className="fas fa-music"></i></div>
+                        <h3>Sound Healing</h3>
+                        <p>Singing bowls, resonance and vibration to soften the nervous system.</p>
+                    </div>
+                </div>
+                <div className="practice-card">
+                    <div className="practice-image">
+                        <img src="/Assets/planet-volumes-PyiY-tlciEg-unsplash.avif" alt="Cold waterfall and nature" />
+                    </div>
+                    <div className="practice-card-content">
+                        <span className="practice-number">04</span>
+                        <div className="practice-icon"><i className="fas fa-snowflake"></i></div>
+                        <h3>Ice Bath</h3>
+                        <p>Cold-water immersion guided by breath, steadiness and mindful courage.</p>
+                    </div>
+                </div>
+                <div className="practice-card">
+                    <div className="practice-image">
+                        <img src="/Assets/WhatsApp Image 2026-05-10 at 20.05.52.avif" alt="Mindful creative practice" />
+                    </div>
+                    <div className="practice-card-content">
+                        <span className="practice-number">05</span>
+                        <div className="practice-icon"><i className="fas fa-palette"></i></div>
+                        <h3>Rock Painting</h3>
+                        <p>Slow creative expression on river stones as a soft practice of attention.</p>
+                    </div>
+                </div>
+                <div className="practice-card">
+                    <div className="practice-image">
+                        <img src="/Assets/raj-dhiman-YiS7laeCbk4-unsplash.avif" alt="Rishikesh excursion" />
+                    </div>
+                    <div className="practice-card-content">
+                        <span className="practice-number">06</span>
+                        <div className="practice-icon"><i className="fas fa-hiking"></i></div>
+                        <h3>Excursions</h3>
+                        <p>Quiet guided walks that bring meditation into nature, temples and mountain paths.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="discover-rishikesh" className="discover-section">
+        <div className="container">
+            <div className="section-header text-center">
+                <span className="section-tag">Discovering Rishikesh</span>
+                <h2 className="section-title">Sacred landmarks near the ashram</h2>
+                <p className="section-desc">Step outside the practice hall and meet the living spirit of Rishikesh through river bridges, evening prayer and hidden nature.</p>
+            </div>
+            <div className="landmark-grid">
+                <div className="landmark-card landmark-large">
+                    <img src="/Assets/rishu-bhosale-ZwuullHS6H4-unsplash.avif" alt="Lakshman Jhula in Rishikesh" />
+                    <div className="landmark-overlay">
+                        <span>River Walk</span>
+                        <h3>Lakshman Jhula</h3>
+                        <p>A meditative crossing above the Ganga with mountain air and temple bells nearby.</p>
+                    </div>
+                </div>
+                <div className="landmark-card">
+                    <img src="/Assets/raj-dhiman-YiS7laeCbk4-unsplash.avif" alt="Ram Jhula in Rishikesh" />
+                    <div className="landmark-overlay">
+                        <span>Ashram Path</span>
+                        <h3>Ram Jhula</h3>
+                        <p>A peaceful route through ashrams, cafes and riverside viewpoints.</p>
+                    </div>
+                </div>
+                <div className="landmark-card">
+                    <img src="/Assets/dipti-soni-eVrta3a6ttQ-unsplash.avif" alt="Ganga Aarti ceremony in Rishikesh" />
+                    <div className="landmark-overlay">
+                        <span>Evening Prayer</span>
+                        <h3>Ganga Aarti</h3>
+                        <p>Flames, chants and devotion beside the river as the day becomes still.</p>
+                    </div>
+                </div>
+                <div className="landmark-card">
+                    <img src="/Assets/planet-volumes-PyiY-tlciEg-unsplash.avif" alt="Secret Waterfall near Rishikesh" />
+                    <div className="landmark-overlay">
+                        <span>Nature Pause</span>
+                        <h3>Secret Waterfall</h3>
+                        <p>A cool forest escape for silence, breath and gentle reflection.</p>
                     </div>
                 </div>
             </div>

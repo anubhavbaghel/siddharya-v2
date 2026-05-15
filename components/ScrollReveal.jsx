@@ -7,7 +7,7 @@ export default function ScrollReveal() {
   const pathname = usePathname();
 
   useEffect(() => {
-    const revealElements = document.querySelectorAll('.about-grid, .retreat-card, .gallery-item, .review-card, .contact-grid');
+    const revealElements = document.querySelectorAll('.about-grid, .retreat-card, .practice-card, .landmark-card, .gallery-item, .review-card, .contact-grid');
     
     // Initial setup
     revealElements.forEach(el => {
@@ -19,7 +19,7 @@ export default function ScrollReveal() {
         if (entry.isIntersecting) {
           const el = entry.target;
           
-          if(el.classList.contains('retreat-card') || el.classList.contains('gallery-item') || el.classList.contains('review-card')) {
+          if(el.classList.contains('retreat-card') || el.classList.contains('practice-card') || el.classList.contains('landmark-card') || el.classList.contains('gallery-item') || el.classList.contains('review-card')) {
             // Find index relative to siblings for staggered delay
             const siblings = Array.from(el.parentElement.children);
             const index = siblings.indexOf(el);

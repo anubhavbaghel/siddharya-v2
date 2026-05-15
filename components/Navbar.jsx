@@ -48,7 +48,7 @@ export default function Navbar() {
             </div>
           </div>
           <Link href="/#gallery" onClick={closeMenu}>Gallery</Link>
-          <Link href="/#reviews" onClick={closeMenu}>Reviews</Link>
+          <Link href="/blog" onClick={closeMenu}>Blog</Link>
           <Link href="/#contact" onClick={closeMenu}>Contact</Link>
         </div>
         <Link href="/#contact" className="btn-primary nav-btn" onClick={closeMenu}>
