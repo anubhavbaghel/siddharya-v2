@@ -60,7 +60,7 @@ export default function About() {
             </div>
             <div className="team-grid">
                 <div className="team-member">
-                    <img src="/Assets/WhatsApp Image 2026-05-10 at 19.18.38.avif" alt="Yoga Instructor" />
+                    <img src="/Assets/WhatsApp Image 2026-05-15 at 11.38.03 AM.jpeg" alt="Yoga Instructor" />
                     <h3>Anjali Sharma</h3>
                     <span>Lead Ashtanga Teacher</span>
                     <p style={{color: 'var(--text-light)'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fringilla vel nisi vitae maximus. Duis convallis, arcu non.</p>

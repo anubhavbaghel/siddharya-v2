@@ -183,7 +183,7 @@ export default function Home() {
             </div>
             <div className="gallery-grid">
                 <div className="gallery-item"><img src="/Assets/WhatsApp Image 2026-05-10 at 18.10.02.avif" alt="Ashram Life" /></div>
-                <div className="gallery-item"><img src="/Assets/WhatsApp Image 2026-05-10 at 19.18.38.avif" alt="Yoga Practice" /></div>
+                <div className="gallery-item"><img src="/Assets/WhatsApp Image 2026-05-15 at 11.40.04 AM.jpeg" alt="Yoga Practice" /></div>
                 <div className="gallery-item"><img src="/Assets/WhatsApp Image 2026-05-10 at 20.01.30.avif" alt="Meditation" /></div>
                 <div className="gallery-item"><img src="/Assets/WhatsApp Image 2026-05-10 at 20.05.01.avif" alt="Spiritual Ceremony" /></div>
                 <div className="gallery-item"><img src="/Assets/WhatsApp Image 2026-05-10 at 20.05.52.avif" alt="Nature Walk" /></div>
