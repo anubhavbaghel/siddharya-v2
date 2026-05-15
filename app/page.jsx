@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main>
       <header id="home" className="hero">
-        <div className="hero-bg" style={{backgroundImage: "linear-gradient(to bottom, rgba(24, 35, 29, 0.2), rgba(24, 35, 29, 0.45)), url('/Assets/foggy_sunrise_river.png')"}}></div>
+        <div className="hero-bg" style={{backgroundImage: "linear-gradient(to bottom, rgba(24, 35, 29, 0.2), rgba(24, 35, 29, 0.45)), url('/Assets/foggy_yoga_river.png')"}}></div>
         <div className="container hero-container">
             <div className="hero-content text-center mx-auto">
                 <span className="hero-subtitle">Tapovan &middot; Rishikesh &middot; Since the river began</span>
