@@ -176,9 +176,12 @@ img {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 1.5rem 0;
+    padding: 1.25rem 0;
     z-index: 1000;
     transition: var(--transition);
+    background: rgba(24, 35, 29, 0.45);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .navbar.scrolled {
