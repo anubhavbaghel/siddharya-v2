@@ -81,7 +81,7 @@ img {
     display: inline-block;
     color: var(--leaf);
     font-family: var(--font-sans);
-    font-weight: 600;
+    font-weight: 400;
     font-size: 0.8rem;
     text-transform: uppercase;
     letter-spacing: 2.6px;
@@ -159,7 +159,7 @@ img {
 
 .btn-text {
     color: var(--primary);
-    font-weight: 600;
+    font-weight: 400;
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
@@ -215,8 +215,8 @@ img {
 .logo span {
     font-family: var(--font-serif);
     font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--text-main);
+    font-weight: 400;
+    color: var(--white);
     transition: var(--transition);
 }
 
@@ -231,9 +231,10 @@ img {
 }
 
 .nav-links a {
-    color: var(--text-main);
-    font-weight: 500;
+    color: var(--white);
+    font-weight: 300;
     position: relative;
+    letter-spacing: 1px;
 }
 
 .navbar.scrolled .nav-links a {
@@ -304,7 +305,7 @@ img {
 .mobile-menu-btn {
     display: none;
     font-size: 1.5rem;
-    color: var(--text-main);
+    color: var(--white);
     cursor: pointer;
     z-index: 1001;
 }
@@ -315,24 +316,43 @@ img {
 
 /* Hero Section */
 .hero {
-    min-height: 100vh;
+    height: 100vh;
+    min-height: 600px;
+    position: relative;
     display: flex;
     align-items: center;
-    background-color: var(--bg-color);
-    padding: 10rem 0 5rem; /* Space for navbar */
-    position: relative;
+    justify-content: center;
+    text-align: center;
+    color: var(--white);
+    padding: 0 2rem;
     overflow: hidden;
 }
 
+.hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    animation: zoomOut 20s ease-out forwards;
+}
+
+@keyframes zoomOut {
+    from { transform: scale(1.1); }
+    to { transform: scale(1); }
+}
+
 .hero-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
-    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .hero-content {
-    max-width: 600px;
+    max-width: 800px;
     opacity: 0;
     transform: translateY(30px);
     animation: fadeInUp 1s 0.5s ease forwards;
@@ -352,7 +372,7 @@ img {
 .hero-title {
     font-size: 5rem;
     margin-bottom: 1.5rem;
-    color: var(--text-main);
+    color: var(--white);
     line-height: 1.05;
     font-weight: 300;
 }
@@ -365,13 +385,14 @@ img {
 .hero-text {
     font-size: 1.25rem;
     margin-bottom: 2rem;
-    color: var(--text-light);
+    color: rgba(255, 255, 255, 0.9);
     line-height: 1.8;
 }
 
 .hero-meta {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 1.5rem;
     margin-bottom: 3rem;
 }
@@ -379,7 +400,7 @@ img {
 .hero-meta span {
     font-size: 0.95rem;
     font-weight: 400;
-    color: var(--text-main);
+    color: var(--white);
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -397,42 +418,8 @@ img {
 
 .hero-buttons {
     display: flex;
+    justify-content: center;
     gap: 1rem;
-}
-
-.hero-visual {
-    position: relative;
-    opacity: 0;
-    transform: translateY(30px);
-    animation: fadeInUp 1s 0.7s ease forwards;
-}
-
-.hero-image-wrapper {
-    position: relative;
-    width: 100%;
-    height: 600px;
-    border-radius: 200px 200px 20px 20px;
-    overflow: hidden;
-    box-shadow: var(--shadow-lg);
-}
-
-.hero-image-wrapper img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-/* Add a soft glowing orb behind the image for soothing effect */
-.hero-visual::before {
-    content: '';
-    position: absolute;
-    top: -50px;
-    right: -50px;
-    width: 400px;
-    height: 400px;
-    background: radial-gradient(circle, rgba(212, 163, 115, 0.2) 0%, transparent 70%);
-    border-radius: 50%;
-    z-index: -1;
 }
 
 /* About Section */
@@ -503,7 +490,7 @@ img {
     align-items: center;
     gap: 0.75rem;
     color: var(--text-main);
-    font-weight: 500;
+    font-weight: 300;
     background: rgba(255, 255, 255, 0.42);
     border: 1px solid rgba(227, 221, 208, 0.62);
     border-radius: 999px;
@@ -568,8 +555,9 @@ img {
     color: var(--white);
     padding: 0.5rem 1rem;
     border-radius: 999px;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 0.875rem;
+    letter-spacing: 1px;
 }
 
 .card-content {
@@ -918,7 +906,7 @@ img {
 .footer-logo span {
     font-family: var(--font-serif);
     font-size: 1.8rem;
-    font-weight: 700;
+    font-weight: 400;
     color: var(--white);
 }
 
@@ -1157,7 +1145,7 @@ img {
     font-family: var(--font-serif);
     font-size: 2.65rem;
     line-height: 1;
-    font-weight: 600;
+    font-weight: 400;
     margin-bottom: 0;
 }
 
@@ -1258,7 +1246,7 @@ img {
 .landmark-overlay span {
     color: rgba(255, 255, 255, 0.78);
     font-size: 0.76rem;
-    font-weight: 700;
+    font-weight: 400;
     letter-spacing: 1.8px;
     text-transform: uppercase;
     margin-bottom: 0.5rem;
@@ -1304,7 +1292,7 @@ img {
     background: none;
     border: none;
     font-family: var(--font-sans);
-    font-weight: 600;
+    font-weight: 400;
     font-size: 1.1rem;
     color: var(--text-main);
     cursor: pointer;
@@ -1390,7 +1378,7 @@ img {
 
 .team-member span {
     color: var(--leaf);
-    font-weight: 500;
+    font-weight: 400;
     display: block;
     margin-bottom: 1rem;
 }
@@ -1466,7 +1454,7 @@ img {
     border-radius: 999px;
     padding: 0.45rem 0.85rem;
     font-size: 0.78rem;
-    font-weight: 700;
+    font-weight: 400;
     letter-spacing: 1.1px;
     text-transform: uppercase;
     margin-bottom: 1.25rem;

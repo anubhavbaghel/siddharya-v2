@@ -6,24 +6,20 @@ export default function Home() {
   return (
     <main>
       <header id="home" className="hero">
+        <div className="hero-bg" style={{backgroundImage: "linear-gradient(to bottom, rgba(24, 35, 29, 0.2), rgba(24, 35, 29, 0.45)), url('/Assets/pexels-yogavidyamandiram-34060996.avif')"}}></div>
         <div className="container hero-container">
-            <div className="hero-content">
+            <div className="hero-content text-center mx-auto">
                 <span className="hero-subtitle">Tapovan &middot; Rishikesh &middot; Since the river began</span>
                 <h1 className="hero-title">A quiet place to remember <br /><span>who you are.</span></h1>
-                <p className="hero-text">Yoga, meditation and Ayurveda retreats in the Himalayan foothills &mdash; unhurried days, sattvic meals, and the quiet company of the Ganga.</p>
-                <div className="hero-meta">
+                <p className="hero-text mx-auto">Yoga, meditation and Ayurveda retreats in the Himalayan foothills &mdash; unhurried days, sattvic meals, and the quiet company of the Ganga.</p>
+                <div className="hero-meta justify-center">
                     <span>3-10 Day Retreats</span>
                     <span>Tapovan, Rishikesh</span>
                     <span>Small Group Practice</span>
                 </div>
-                <div className="hero-buttons">
+                <div className="hero-buttons justify-center">
                     <a href="#retreats" className="btn-primary">Our Retreats</a>
-                    <a href="/about" className="btn-secondary">About Ashram</a>
-                </div>
-            </div>
-            <div className="hero-visual">
-                <div className="hero-image-wrapper">
-                    <img src="/Assets/pexels-yogavidyamandiram-34060996.avif" alt="Yoga Retreat in Rishikesh" />
+                    <a href="/about" className="btn-outline" style={{borderColor: 'var(--white)', color: 'var(--white)'}}>About Ashram</a>
                 </div>
             </div>
         </div>
